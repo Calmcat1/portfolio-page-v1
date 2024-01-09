@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,100;1,700&family=Roboto:wght@100;400;700&display=swap');
+
+
+
+.font__poppins, .header__poppins{
+  font-family: poppins;
+  color: white;
+  
+}
+
+.header__poppins{
+  font-weight: 700;
+}
+
+.bg__nimbus{
+  background-color: #355479;
+}

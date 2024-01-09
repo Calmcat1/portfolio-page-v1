@@ -20,14 +20,14 @@ const Tech_Stack = () => {
 
       <div className="tech_stack__wrapper">
           <div className="tech_stack__heading">
-            <h1 class="tech_stack__heading__text text-center">Tech stack</h1>
+            <h1 class="tech_stack__heading__text text-center" id="tech__stack_h">Tech stack</h1>
           </div>
 
           <div className="tech_stack__images">
             <div className="tech_stack__image__container">
-              <img src={CSS} ></img>
-              <img src={Django}></img>
-              <img src={Html}></img>
+              <img src={CSS} className="normal__img" ></img>
+              <img src={Django} className="normal__img"></img>
+              <img src={Html} className="normal__img"></img>
               <img src={Javascript} className="special__img"></img>
               <img src={Python} className="special__img"></img>
               <img src={react} className="special__img"></img>

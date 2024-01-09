@@ -1,56 +1,59 @@
-/* projects.css custom styling */
+/* project file custom styling */
 
-.projects__wrapper{
-  background-color: #50A0FF
+
+.project__content{
+  background-color: #50A0FF;
+}
+
+.font__poppins{
+  font-style: poppins !important;
+  color: white !important;
 }
 
 
-
-
-/* cloud style creation for the div */
+/* cloud style creation for project file */
 
 .top__ellipse__projects-container{
   display: flex;
-  overflow-x: hidden;
-  transform: rotate(180deg);
-
-
+  overflow: hidden;
+  height: 7em;
+  
 }
 
-.top__ellipse__projects {
+.top__ellipse__projects{
   position: relative;
-  z-index: 5;
-  top: 0em !important;
+  z-index: 0;
+  top: -15em;
   right: -1em;
   height: 20em;
   width: 20em;
-  background-color: #A7CAEB;
+  background-color: #50A0FF;
   border-radius: 50%;
 }
 
 .top__ellipse__projects:nth-child(1){
   right: 5em;
-  top: -3em;
+  top: -17em;
   width: 30em;
   flex-shrink: 0;
 }
 
 .top__ellipse__projects:nth-child(2){
   left: -13em;
-  top: -4em;
+  top: -16em;
   width: 25em;
   flex-shrink: 0;
   
 }
 .top__ellipse__projects:nth-child(3){
   left: -20em;
-  top: -5em;
+  top: -15em;
   width: 25em;
   flex-shrink: 0;
 }
 .top__ellipse__projects:nth-child(4){
   left: -25em;
-  top: -6em;
+  top: -14em;
   width: 30em;
   flex-shrink: 0;
 }
