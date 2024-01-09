@@ -1,0 +1,16 @@
+React file structure for portfolio page
+
+
+Components:
+
+Section 0 (Navigation bar)
+Section 1 (introduction Section) 
+Section 2 (My Stack Section)
+Section 3 (Projects Section)
+Section 4 (Semi-Footer Section)
+Section 5 (Footer Section)
+Section 6 (Mobile-Navigation bar)
+
+Every section in folder with its own CSS files
+
+Containers 

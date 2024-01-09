@@ -1,0 +1,155 @@
+/* tech-stack-secation custom styling */
+
+.tech_stack__wrapper{
+  background-color: #50A0FF;
+}
+
+
+.tech_stack__heading__text{
+  font-family: poppins !important;
+  font-weight: 700 !important;
+  color: white
+}
+
+.tech_stack__images{
+  display: flex;
+}
+
+.tech_stack__image__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.custom-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tech_stack__custom_card{
+  background-color: #0075FF !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+  border: none;
+}
+
+
+
+.special__img{
+  width: 15%;
+}
+
+
+/* cloud style creation for the div */
+
+.top__ellipse-container{
+  display: flex;
+  overflow-x: hidden;
+  transform: rotate(180deg);
+
+
+}
+
+.top__ellipse{
+  position: relative;
+  z-index: 5;
+  top: -4em;
+  right: -1em;
+  height: 20em;
+  width: 20em;
+  background-color: #50A0FF;
+  border-radius: 50%;
+}
+
+.top__ellipse:nth-child(1){
+  right: 5em;
+  top: -3em;
+  width: 30em;
+  flex-shrink: 0;
+}
+
+.top__ellipse:nth-child(2){
+  left: -13em;
+  top: -4em;
+  width: 25em;
+  flex-shrink: 0;
+  
+}
+.top__ellipse:nth-child(3){
+  left: -20em;
+  top: -5em;
+  width: 25em;
+  flex-shrink: 0;
+}
+.top__ellipse:nth-child(4){
+  left: -25em;
+  top: -6em;
+  width: 30em;
+  flex-shrink: 0;
+}
+
+/*image control*/
+img{
+  width: 7.5%
+}
+
+/* random util classes */
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+  /* cloud style creation for mobile */
+
+  .top__ellipse-container{
+    display: none;
+    overflow-x: hidden;
+    transform: rotate(180deg);
+
+
+  }
+
+  .top__ellipse{
+    display: none;
+    position: relative;
+    z-index: 5;
+    top: -4em;
+    right: -1em;
+    height: 20em;
+    width: 20em;
+    background-color: #50A0FF;
+    border-radius: 50%;
+  }
+
+  .top__ellipse:nth-child(1){
+    right: 5em;
+    top: -3em;
+    width: 30em;
+    flex-shrink: 0;
+  }
+
+  .top__ellipse:nth-child(2){
+    left: -13em;
+    top: -4em;
+    width: 25em;
+    flex-shrink: 0;
+
+  }
+  .top__ellipse:nth-child(3){
+    left: -20em;
+    top: -5em;
+    width: 25em;
+    flex-shrink: 0;
+  }
+  .top__ellipse:nth-child(4){
+    left: -25em;
+    top: -6em;
+    width: 30em;
+    flex-shrink: 0;
+  }
+
+
+}

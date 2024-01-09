@@ -1,0 +1,56 @@
+/* projects.css custom styling */
+
+.projects__wrapper{
+  background-color: #50A0FF
+}
+
+
+
+
+/* cloud style creation for the div */
+
+.top__ellipse__projects-container{
+  display: flex;
+  overflow-x: hidden;
+  transform: rotate(180deg);
+
+
+}
+
+.top__ellipse__projects {
+  position: relative;
+  z-index: 5;
+  top: 0em !important;
+  right: -1em;
+  height: 20em;
+  width: 20em;
+  background-color: #A7CAEB;
+  border-radius: 50%;
+}
+
+.top__ellipse__projects:nth-child(1){
+  right: 5em;
+  top: -3em;
+  width: 30em;
+  flex-shrink: 0;
+}
+
+.top__ellipse__projects:nth-child(2){
+  left: -13em;
+  top: -4em;
+  width: 25em;
+  flex-shrink: 0;
+  
+}
+.top__ellipse__projects:nth-child(3){
+  left: -20em;
+  top: -5em;
+  width: 25em;
+  flex-shrink: 0;
+}
+.top__ellipse__projects:nth-child(4){
+  left: -25em;
+  top: -6em;
+  width: 30em;
+  flex-shrink: 0;
+}

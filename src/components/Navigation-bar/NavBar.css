@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,100;1,700&family=Roboto:wght@100;400;700&display=swap');
+
+body{
+  margin: 0 0 0 0;
+}
+
+
+
+/* custom navbar styling */
+
+.white-background{
+  background-color: #FFFFFF;
+}
+
+.container{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: normal !important;
+  justify-content: space-between;
+  
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 25em; /* Adjust the right margin between nav items using em */
+}
+
+.nav-link, .navbar-brand{
+  font-family: poppins !important;
+  font-weight: 700 !important;
+  color: black !important;
+
+}
+
+.nav-link{
+  font-size: 1.2em !important;
+}
+
+.navbar-brand h1{
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+
+/* cloud style creation for navbar */
+
+.ellipse-container{
+  display: flex;
+  overflow: hidden;
+  height: 7em;
+  
+}
+
+.ellipse{
+  position: relative;
+  z-index: 0;
+  top: -15em;
+  right: -1em;
+  height: 20em;
+  width: 20em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.ellipse:nth-child(1){
+  right: 5em;
+  top: -17em;
+  width: 30em;
+  flex-shrink: 0;
+}
+
+.ellipse:nth-child(2){
+  left: -13em;
+  top: -16em;
+  width: 25em;
+  flex-shrink: 0;
+  
+}
+.ellipse:nth-child(3){
+  left: -20em;
+  top: -15em;
+  width: 25em;
+  flex-shrink: 0;
+}
+.ellipse:nth-child(4){
+  left: -25em;
+  top: -14em;
+  width: 30em;
+  flex-shrink: 0;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+   /* pc clouds hidden */
+
+  .ellipse-container{
+    display: none;
+    overflow: hidden;
+    height: 7em;
+
+  }
+
+  .ellipse{
+    display: none;
+    position: relative;
+    z-index: 0;
+    top: -15em;
+    right: -1em;
+    height: 20em;
+    width: 20em;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .ellipse:nth-child(1){
+    right: 5em;
+    top: -17em;
+    width: 30em;
+    flex-shrink: 0;
+  }
+
+  .ellipse:nth-child(2){
+    left: -13em;
+    top: -16em;
+    width: 25em;
+    flex-shrink: 0;
+
+  }
+  .ellipse:nth-child(3){
+    left: -20em;
+    top: -15em;
+    width: 25em;
+    flex-shrink: 0;
+  }
+  .ellipse:nth-child(4){
+    left: -25em;
+    top: -14em;
+    width: 30em;
+    flex-shrink: 0;
+  }
+}
